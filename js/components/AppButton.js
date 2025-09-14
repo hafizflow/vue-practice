@@ -25,9 +25,4 @@ export default {
             default: false
         }
     },
-    // data() {
-    //     return {
-    //         processing: false
-    //     }
-    // }
 }
