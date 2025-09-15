@@ -3,40 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="https://unpkg.com/vue@3"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <style>
-        @keyframes spinner {
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        .is-loading { color: transparent }
-
-        .is-loading::before {
-            content: "";
-            box-sizing: border-box;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 24px;
-            height: 24px;
-            margin-top: -12px;
-            margin-left: -12px;
-            border-radius: 50%;
-            border: 2px solid #ccc;
-            border-top-color: #000;
-            animation: spinner 600ms linear infinite;
-        }
-    </style>
-
+    
 </head>
-<body class="h-full grid place-items-center">
+<body class="h-full grid place-items-center bg-gray-800 text-white">
 
 <div id="app"></div>
 
