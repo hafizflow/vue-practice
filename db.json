@@ -1,0 +1,9 @@
+{
+  "assignments": [
+    { "name": "Finish Project", "complete": false, "id": 1, "tag": "vue" },
+    { "name": "Read Book", "complete": true, "id": 2, "tag": "personal" },
+    { "name": "Grocery Shopping", "complete": false, "id": 3, "tag": "personal" },
+    { "name": "Workout", "complete": true, "id": 4, "tag": "health" },
+    { "name": "Team Meeting", "complete": false, "id": 5, "tag": "work" }
+  ]
+}

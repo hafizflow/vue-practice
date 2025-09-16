@@ -14,14 +14,18 @@ export default {
         
     `,
 
+    created() {
+        fetch('http://localhost:3001/assignments')
+            .then(response => response.json())
+            .then(assignments => {
+                this.assignments = assignments;
+            });
+    },
+
 
     data() {
         return {
-            assignments: [
-                { name: 'Finish Project', complete: false, id: 1, tag: 'vue'},
-                { name: 'Read Chapter 4', complete: false, id: 2, tag: 'science'},
-                { name: 'Complete Homework', complete: false, id: 3, tag: 'math'}
-            ],
+            assignments: []
         }
     },
 
