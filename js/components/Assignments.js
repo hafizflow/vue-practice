@@ -9,8 +9,6 @@ export default {
           <assignment-list :assignments="filters.inProgress" title="In Progress">
             <assignment-create @add="add"></assignment-create>
           </assignment-list>
-              
-            
           
             <div v-if="showCompleted">
               <assignment-list
